@@ -1,0 +1,132 @@
+   *{
+    margin : 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+  }
+  .navbar{
+  align-items: center;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.07);
+  box-sizing: border-box;
+  display:flex;
+  height: 60px;
+  justify-content: flex-end;
+  width: 100%;
+  z-index: 1; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-top: 4%;
+}
+.navbar a{
+  color: #8f99a7;
+  font-size: 17px;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #ffffff !important;
+}
+.menu-bar{
+  background-color: #0f1724;
+}
+
+.main-container{
+  background-color: #081025;
+  height: 610px;
+}
+.navbar h2{
+  color: #fff;
+  padding-left: 0px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+}
+  .cont-div{
+      text-align: center;
+      color: #fff;
+      font-family: sans-serif;
+      font-weight: 600;
+      font-style: italic;
+      font-size: 40px;
+      position: relative;
+      padding-top: 10px;
+      display: inline-block;
+  }
+  .cont-div:hover{
+      color: #00bbf0;
+      border-bottom: 4px solid #0080ff;
+  }
+.git-div{
+    font-size: 38px;
+  padding-top: 10px;
+  padding-right: 20px ;
+}
+.edu-div h3{
+    color:#0080ff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+}
+.icon-div a{
+  font-size: 30px;
+  padding-top: 10px;
+  padding-right: 20px ;
+  color:#0080ff;
+  
+}
+.icon-div2 {
+  display: inline-block;
+  font-size: 30px;
+
+  padding-top: 10px;
+  padding-right: 20px;
+  color: #fff;
+}
+.icon-div2 a {
+  font-family: sans-serif;
+  display: inline-block; /* lets transform work */
+  color: inherit; /* keeps the icon white until hover */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.icon-div2 a:hover {
+  transform: translateY(-5px);
+  color: #0080ff !important;
+}
+.contact-pg{
+  color: #fff;
+  border-radius: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 2rem;
+  box-shadow: 0 8px 32px #504e4e;
+  backdrop-filter: blur(10px);
+  background-color: #504e4e;
+}
+.contact-pg:hover{
+  transform: translateY(-5px);
+}
+.text-div{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+    padding-top: 10px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f1724;
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+}
+.copyright {
+  color: #fff;
+  font-size: 15px;
+  padding-top:15px;
+  font-family: sans-serif;
+}
